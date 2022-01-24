@@ -2,8 +2,8 @@
 int main()
 {
     int r;
-    float a;
+    float ac;
     scanf("%d",&r);
-    printf("%.2f",a=3.14*r*r);
-    return 0;
+    ac=3.14*r*r;
+    printf("%.2f",ac);
 }
