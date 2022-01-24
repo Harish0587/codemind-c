@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,g;
+    int n,dp;
     scanf("%d",&n);
-    g=(n*(n-3))/ 2;
-    printf("%d",g);
+    dp=n*(n-3)/2;
+    printf("%d",dp);
 }
