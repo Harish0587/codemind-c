@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    float f;
-    int c;
-    scanf("%d",&c);
-    f=(c*1.8)+32;
-    printf("%.2f",f);
-    
+    float c,fr;
+    scanf("%f",&c);
+    fr=(c*(9.0/5.0))+32;
+    printf("%.2f",fr);
+    return 0;
 }
