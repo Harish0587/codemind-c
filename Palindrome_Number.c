@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,x,t,rev=0,rem;
+    scanf("%d",&n);
+ for(i=0;i<n;i++)
+{
+   scanf("%d",&x);
+   //printf("%d",x);
+   t=x;
+   while(x>0)
+   {
+       rem=x%10;
+       rev=rev*10+rem;
+       x=x/10;
+   }
+   if(t==rev)
+   {
+       printf("True
+");
+   }
+   else
+   {
+       printf("False
+");
+   }
+   rev=0;
+}
+}
