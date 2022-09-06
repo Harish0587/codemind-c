@@ -28,7 +28,6 @@ int main()
     }
     r = 0;
   }
-  printf("%ld
-",n);
+  printf("%ld",n);
   return 0;
 }
